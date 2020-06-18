@@ -15,12 +15,12 @@ const Nav = () => {
                 <div className="uk-navbar-left">
                   <ul className="uk-navbar-nav">
                     <li>
-                      <Link to="/">Strapi Blog</Link>
+                      <Link to="/">ISAM Blog</Link>
                     </li>
                   </ul>
                 </div>
 
-                <div className="uk-navbar-right">
+                {/* <div className="uk-navbar-right">
                   <ul className="uk-navbar-nav">
                     {categories.map((category, i) => {
                       return (
@@ -35,7 +35,7 @@ const Nav = () => {
                       );
                     })}
                   </ul>
-                </div>
+                </div> */}
               </nav>
             </div>
           );
